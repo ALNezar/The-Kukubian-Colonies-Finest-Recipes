@@ -1,4 +1,6 @@
 # odin recipes
+# Oats Haven | Oats recipes 
+
 odin-recipes Project for the course www.theodinproject.com 
 
 By completing this project, I will have showed my ability to:
