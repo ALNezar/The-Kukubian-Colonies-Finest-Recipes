@@ -25,20 +25,28 @@
     font-family: "Bungee Spice", sans-serif;
     font-weight: 400;
     font-style: normal;
+  
     font-size: 30px
+    
+    
 }
 
 .menu-body {
     color: #00aaff;
     text-align: center;
-    text
+    
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+    
 
-}
 
 a {
   color: var(--link-color);
   text-decoration: none;
-  transition: color 1s ease;
+  transition: color 0.8s ease;
 }
 
 a:visited {
