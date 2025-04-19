@@ -5,8 +5,8 @@
 >*Recipes fro*emphasized text*m the planets Vexx, Stye, Mira, Loro, Zile, Pyke, Creep, Bass, Frac, Hork, Nosh, Ooom, Queg, and Tilo.*
 # The Kukubian Colonies All 14 Planets 
 
-| Planet | Description |
-|--------|-------------|
+The Kukubian Colonies consist of 14 Glorious Planets: | ![image](https://github.com/user-attachments/assets/3f35066f-dc70-46f2-bea3-b8d9085a9ac3)
+-------------------------------------------------- | ------------------------------------------------
 | **Bass** | A playground for stock market analysts. |
 | **Frac** | Headquarters of the Voyager's Insurance Company. |
 | **Hork** | The media capital of Kukubia. |
