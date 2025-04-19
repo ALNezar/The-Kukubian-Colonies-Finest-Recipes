@@ -1,4 +1,5 @@
-![image](https://github.com/user-attachments/assets/ed5e3944-ed03-4798-95ec-95c065d09b65)
+![image](https://github.com/user-attachments/assets/79ad801b-2b9a-4e1d-a5ea-36d2735a9713)
+
 *The Kukubian Colonies' Finest Recipes an **Odin-recipes Project** for the course [The Odin Project](https://www.theodinproject.com) based on the game gazillionaire deluxe*
 
 
