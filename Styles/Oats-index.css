@@ -1,64 +1,73 @@
-    :root {
-      --link-color: #00aaff;
-      --link-hover: #ff6600;
-      --link-visited: #aa00ff;
-      --link-active: #ff3c00;
-    }
+:root {
+  --link-color: #14ff47;     
+  --link-hover: #00fbff;     
+  --link-visited: #ff7b00;   
+  --link-active: #00ff88;   
+  background-image: repeating-radial-gradient(circle at center, #000 2px, #191b18 10px);
 
-    body {
-      background-image: repeating-radial-gradient(circle at center, #000 2px, #111 10px);
-      background-size: cover;
-      margin: 0;
-      padding: 0;
-      color: #00aaff;
-      font-family: sans-serif;
-    }
+}
 
-    ::-moz-selection {
-      background: #000000;
-      color: white;
-    }
+::-moz-selection {
+  background: #000000;
+  color: white;
+}
 
-    ::selection {
-      background: #000000;
-      color: white;
-    }
+::selection {
+  background: #000000;
+  color: white;
+}
 
-    header {
-      color: #00aaff;
-      text-align: center;
-      font-family: "Bungee Spice", sans-serif;
-      font-weight: 400;
-      font-size: 30px;
-      padding: 20px;
-    }
 
-    .menu-body {
-      color: #00aaff;
-      text-align: center;
-      font-family: "Special Elite", sans-serif;
-      font-weight: 400;
-      font-size: 30px;
-      padding: 60px 80px;
-      list-style-position: inside; /* places bullet right next to text */
-      margin-left: 0;
-    }
+/* link hover colours */
+a {
+  color: var(--link-color);
+  text-decoration: none;
+  transition: color 1.3s ease;
+}
+a:visited {
+  color: var(--link-visited);
+}
+a:hover {
+  color: var(--link-hover);
+  text-decoration: none;
+}
+a:active {
+  color: var(--link-active);
+}
+/* link hover colours */
 
-    a {
-      color: var(--link-color);
-      text-decoration: none;
-      transition: color 0.8s ease;
-    }
 
-    a:visited {
-      color: var(--link-visited);
-    }
+header {
+  color: #00aaff;
+  text-align: center;
+  font-family: "Bungee Spice", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  padding: 20px;
+  
+}
 
-    a:hover {
-      color: var(--link-hover);
-      text-decoration: underline;
-    }
 
-    a:active {
-      color: var(--link-active)
-    }  
+body {
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  color: #00aaff;
+  font-family: fantasy;
+}
+
+
+
+.menu-body {
+  color: #00ff8c;
+  text-align: center;
+  font-family: "Yatra One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  padding: 60px 80px;
+  list-style-position: inside;
+  margin-left: 0;
+}
+
