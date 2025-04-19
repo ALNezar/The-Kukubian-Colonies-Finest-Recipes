@@ -71,3 +71,43 @@ body {
   margin-left: 0;
 }
 
+/* Responsive Design for Mobile */
+@media screen and (max-width: 768px) {
+  header {
+    font-size: 30px;  /* Smaller font size for mobile */
+    padding: 15px;
+  }
+
+  body {
+    font-size: 14px;  /* Adjust body font size */
+  }
+
+  .menu-body {
+    font-size: 28px;  /* Smaller font size for the menu */
+    padding: 40px 40px;  /* Adjust padding for mobile */
+  }
+
+  a {
+    font-size: 16px;  /* Adjust link font size */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  header {
+    font-size: 24px;  /* Further reduce font size for smaller screens */
+    padding: 10px;
+  }
+
+  body {
+    font-size: 12px;  /* Adjust body font size */
+  }
+
+  .menu-body {
+    font-size: 24px;  /* Further reduce menu font size */
+    padding: 30px 20px;  /* Reduce padding for smaller screens */
+  }
+
+  a {
+    font-size: 14px;  /* Adjust link font size */
+  }
+}
