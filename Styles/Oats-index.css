@@ -37,77 +37,83 @@ a:active {
 /* link hover colours */
 
 
-header {
+.header-menu-content {
+
+display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  
+  
+}
+
+@media (min-width : 600px) {
+  .header-menu-content{
+    flex-direction: row;
+  }
+}
+
+.header-menu-content h1 {
   color: #00aaff;
   text-align: center;
   font-family: "Bungee Spice", sans-serif;
   font-weight: 400;
-  font-size: 40px;
+  font-size: 50px;
   padding: 20px;
-  
+
 }
 
 
-body {
-  background-size: cover;
-  background-position: center;
+
+.food-menu-body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
   margin: 0;
   padding: 0;
-  color: #00aaff;
-  font-family: fantasy;
+  list-style: none;
+  height: 34vh;
+  align-items: stretch;
 }
 
+@media (min-width: 600px) {
+  .food-menu-body {
+    flex-direction: row;
+  }
+}
 
+.food-menu-body li {
+  display: flex; /
+  justify-content: center; /* Centre text */
+  align-items: center;     
+  padding: 1rem; 
 
-.menu-body {
+  border: 2px dashed white;
   color: #00ff8c;
   text-align: center;
   font-family: "Yatra One", system-ui;
   font-weight: 400;
   font-style: normal;
-  font-size: 40px;
-  padding: 60px 80px;
-  list-style-position: inside;
-  margin-left: 0;
+  font-size: 20px;
 }
 
-/* Responsive Design for Mobile */
-@media screen and (max-width: 768px) {
-  header {
-    font-size: 30px;  /* Smaller font size for mobile */
-    padding: 15px;
-  }
 
-  body {
-    font-size: 14px;  /* Adjust body font size */
-  }
 
-  .menu-body {
-    font-size: 28px;  /* Smaller font size for the menu */
-    padding: 40px 40px;  /* Adjust padding for mobile */
-  }
-
-  a {
-    font-size: 16px;  /* Adjust link font size */
-  }
+.food-menu-body li:nth-child(1) {
+  background-color: #1c2041; 
 }
-
-@media screen and (max-width: 480px) {
-  header {
-    font-size: 24px;  /* Further reduce font size for smaller screens */
-    padding: 10px;
-  }
-
-  body {
-    font-size: 12px;  /* Adjust body font size */
-  }
-
-  .menu-body {
-    font-size: 24px;  /* Further reduce menu font size */
-    padding: 30px 20px;  /* Reduce padding for smaller screens */
-  }
-
-  a {
-    font-size: 14px;  /* Adjust link font size */
-  }
+.food-menu-body li:nth-child(2) {
+  background-color: #38361d; 
 }
+.food-menu-body li:nth-child(3) {
+  background-color: #4a353c; 
+}
+/* Add more if you have more items */
+
+
+
+
+
