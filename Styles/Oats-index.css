@@ -1,24 +1,19 @@
 :root {
-  --link-color: #14ff47;     
-  --link-hover: #00fbff;     
-  --link-visited: #ff7b00;   
-  --link-active: #00ff88;   
+  --link-color: #14ff47;
+  --link-hover: #00fbff;
+  --link-visited: #ff7b00;
+  --link-active: #00ff88;
+  --primary-accent: #00aaff;
+  --food-font: "Yatra One", system-ui;
   background-image: repeating-radial-gradient(circle at center, #000 2px, #191b18 10px);
-
 }
 
+::selection,
 ::-moz-selection {
-  background: #000000;
+  background: #000;
   color: white;
 }
 
-::selection {
-  background: #000000;
-  color: white;
-}
-
-
-/* link hover colours */
 a {
   color: var(--link-color);
   text-decoration: none;
@@ -26,94 +21,77 @@ a {
 }
 a:visited {
   color: var(--link-visited);
-}
+}                                          /* Link hovberrr */
 a:hover {
   color: var(--link-hover);
-  text-decoration: none;
 }
 a:active {
   color: var(--link-active);
 }
-/* link hover colours */
-
 
 .header-menu-content {
-
-display: flex;
+  display: flex;
+  justify-content: space-between;
   flex-direction: column;
-  flex-wrap: wrap;
   justify-content: center;
-
-  
-  
+  align-items: center;
 }
 
-@media (min-width : 600px) {
-  .header-menu-content{
+@media (min-width: 600px) {
+  .header-menu-content {
     flex-direction: row;
   }
 }
 
 .header-menu-content h1 {
-  color: #00aaff;
+  color: var(--primary-accent);
   text-align: center;
-  font-family: "Bungee Spice", sans-serif;
+  font-family: "Bungee Spice", sans-serif; 
   font-weight: 400;
   font-size: 50px;
   padding: 20px;
-
 }
-
 
 
 .food-menu-body {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
   margin: 0;
   padding: 0;
   list-style: none;
   height: 34vh;
-  align-items: stretch;
 }
 
 @media (min-width: 600px) {
   .food-menu-body {
     flex-direction: row;
+   
   }
 }
 
 .food-menu-body li {
-  display: flex; /
-  justify-content: center; /* Centre text */
-  align-items: center;     
-  padding: 1rem; 
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
   border: 2px dashed white;
   color: #00ff8c;
   text-align: center;
-  font-family: "Yatra One", system-ui;
+  font-family: var(--food-font);
   font-weight: 400;
   font-style: normal;
   font-size: 20px;
 }
 
-
-
 .food-menu-body li:nth-child(1) {
-  background-color: #1c2041; 
+  background-color: #1c2041;
+  
 }
 .food-menu-body li:nth-child(2) {
-  background-color: #38361d; 
+  background-color: #38361d;
 }
 .food-menu-body li:nth-child(3) {
-  background-color: #4a353c; 
+  background-color: #4a353c;
 }
-/* Add more if you have more items */
-
-
-
-
-
