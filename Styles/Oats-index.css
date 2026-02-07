@@ -5,7 +5,6 @@
   --link-active: #00ff88;
   --primary-accent: #00aaff;
   --food-font: "Yatra One", system-ui;
-  background-image: repeating-radial-gradient(circle at center, #000 2px, #191b18 10px);
 }
 
 ::selection,
@@ -53,45 +52,6 @@ a:active {
 }
 
 
-.food-menu-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 1rem;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  height: 34vh;
-}
+.Planets-List {
 
-@media (min-width: 600px) {
-  .food-menu-body {
-    flex-direction: row;
-   
-  }
-}
-
-.food-menu-body li {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 1rem;
-  border: 2px dashed white;
-  color: #00ff8c;
-  text-align: center;
-  font-family: var(--food-font);
-  font-weight: 400;
-  font-style: normal;
-  font-size: 20px;
-}
-
-.food-menu-body li:nth-child(1) {
-  background-color: #1c2041;
-  
-}
-.food-menu-body li:nth-child(2) {
-  background-color: #38361d;
-}
-.food-menu-body li:nth-child(3) {
-  background-color: #4a353c;
 }
