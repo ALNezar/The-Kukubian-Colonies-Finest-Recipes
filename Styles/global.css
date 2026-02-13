@@ -11,6 +11,7 @@
 ::-moz-selection {
   background: #000;
   color: white;
+  background-color: ;
 }
 
 a {
@@ -53,7 +54,16 @@ a:active {
 
 
 .Planets-List {
-
+size: 120px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  
+  
 }
 body {
   margin: 0;
